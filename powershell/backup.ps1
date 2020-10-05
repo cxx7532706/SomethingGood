@@ -1,3 +1,4 @@
+#select dll and exe to backup
 $include=@("*.dll","*.exe")
 $files = get-childitem -path "c:\FolderName\*" -Include $include
 
